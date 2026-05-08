@@ -1,0 +1,28 @@
+name: my_logistics_app
+description: "Bài tập tuần 4 - Flutter Exercises"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.11.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  
+  # Thư viện dùng cho bài tập số 3 (Shared Preferences) [cite: 23, 25]
+  shared_preferences: ^2.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Nếu bạn có sử dụng hình ảnh cho bài Grid View (Bài 2), hãy bỏ comment phần dưới này [cite: 5]
+  # assets:
+  #   - assets/images/
